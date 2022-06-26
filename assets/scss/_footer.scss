@@ -1,0 +1,37 @@
+footer {
+    margin: 80px 0;
+    background: $linear-gradient;
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .footer-img {
+            position: relative;
+            .footer-img-logo {
+                position: absolute;
+            }
+            .logo-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .content {
+            .info {
+                padding-bottom: 100px;
+                display: flex;
+                .pages,
+                .social-icons {
+                    h1 {
+                        font-family: 'Cantarell';
+                        font-size: 22px;
+                        letter-spacing: $spacing;
+                    }
+                    a {
+                        color: $color1;
+                    }
+                }
+            }
+        }
+    }
+}

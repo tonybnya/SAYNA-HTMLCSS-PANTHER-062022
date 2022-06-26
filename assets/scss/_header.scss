@@ -1,0 +1,109 @@
+@mixin bgHero($height, $bg, $position, $repeat, $size) {
+    height: $height;
+    background-image: $bg;
+    background-position: $position;
+    background-repeat: $repeat;
+    background-size: $size;
+}
+
+@mixin flexContent($val, $direction, $justify, $align, $width) {
+    display: $val;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    width: $width;
+}
+
+// Header Styles
+header {
+    // Navbar
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        ul {
+            display: flex;
+            li {
+                a {
+                    color: $color1;
+                    cursor: pointer;
+                    margin-left: 40px;
+                    &:hover,
+                    &:active {
+                        text-decoration: underline;
+                    }
+                    &:active {
+                        color: $color5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Hero Sections
+#hero-index {
+    @include bgHero(100vh, $hero-index, center right, no-repeat, auto);
+    .container {
+        .content {
+            margin-left: 0;
+            padding-top: 200px;
+            @include flexContent(flex, column, center, flex-start, 40%);
+            h1,
+            h2 {
+                color: $color4;
+            }
+            p {
+                margin: 15px 0;
+            }
+            a {
+                color: $color1;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#hero-wakanda {
+    @include bgHero(100vh, $hero-wakanda, center right, no-repeat, auto);
+    .container {
+        .content {
+            margin-left: 0;
+            padding-top: 200px;
+            @include flexContent(flex, column, center, flex-start, 45%);
+            h1,
+            h2 {
+                color: $color4;
+            }
+            h2 {
+                font-family: 'Wakanda Forever';
+            }
+            p {
+                margin: 15px 0;
+            }
+            a {
+                color: $color1;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#hero-enigme {
+    @include bgHero(100vh, $hero-enigme, center left, no-repeat, auto);
+    .container {
+        .content {
+            padding-top: 200px;
+            @include flexContent(flex, column, center, flex-end, 45%);
+            h1 {
+                color: $color4;
+                font-family: 'Beyno';
+            }
+            a {
+                color: $color1;
+                text-decoration: underline;
+            }
+        }
+    }
+}

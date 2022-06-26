@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@400;500;700&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Panthera";
+  src: url(../fonts/Panthera.ttf);
+}
+@font-face {
+  font-family: "Beyno";
+  src: url(../fonts/Beyno.otf);
+}
+@font-face {
+  font-family: "Wakanda Forever";
+  src: url(../fonts/Wakanda\ Forever.ttf);
+}
+p,
+a,
+footer {
+  font-family: "Cantarell", sans-serif;
+}
+
+footer {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 68px;
+  font-family: "Panthera";
+}
+
+h2 {
+  font-size: 43px;
+  font-family: "Beyno";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+  color: #FFFFFF;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-left: 40px;
+}
+header nav ul li a:hover, header nav ul li a:active {
+  text-decoration: underline;
+}
+header nav ul li a:active {
+  color: #3D2DA6;
+}
+
+#hero-index {
+  height: 100vh;
+  background-image: url(../Accueil/Pantherhome1.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#hero-index .container .content {
+  margin-left: 0;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+}
+#hero-index .container .content h1,
+#hero-index .container .content h2 {
+  color: #DF99F2;
+}
+#hero-index .container .content p {
+  margin: 15px 0;
+}
+#hero-index .container .content a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#hero-wakanda {
+  height: 100vh;
+  background-image: url(../Wakanda/Pantherwakanda1.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#hero-wakanda .container .content {
+  margin-left: 0;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 45%;
+}
+#hero-wakanda .container .content h1,
+#hero-wakanda .container .content h2 {
+  color: #DF99F2;
+}
+#hero-wakanda .container .content h2 {
+  font-family: "Wakanda Forever";
+}
+#hero-wakanda .container .content p {
+  margin: 15px 0;
+}
+#hero-wakanda .container .content a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#hero-enigme {
+  height: 100vh;
+  background-image: url(../Enigme/Pantherenigme1.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#hero-enigme .container .content {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 45%;
+}
+#hero-enigme .container .content h1 {
+  color: #DF99F2;
+  font-family: "Beyno";
+}
+#hero-enigme .container .content a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+footer {
+  margin: 80px 0;
+  background: 180deg, #3D2DA6 0%, #021740 90.43%;
+}
+footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .container .footer-img {
+  position: relative;
+}
+footer .container .footer-img .footer-img-logo {
+  position: absolute;
+}
+footer .container .footer-img .logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container .content .info {
+  padding-bottom: 100px;
+  display: flex;
+}
+footer .container .content .info .pages h1,
+footer .container .content .info .social-icons h1 {
+  font-family: "Cantarell";
+  font-size: 22px;
+  letter-spacing: 28%;
+}
+footer .container .content .info .pages a,
+footer .container .content .info .social-icons a {
+  color: #FFFFFF;
+}
+
+main #contact-form {
+  height: 100vh;
+  background-image: url(../Accueil/Pantherhome7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main #contact-form .container {
+  z-index: 1;
+}
+main #contact-form .container .form {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px;
+  background: #F2CEF2;
+  width: 60%;
+  opacity: 0.5;
+  margin: 0 auto;
+  border-radius: 150px;
+}
+main #contact-form .container .form h3,
+main #contact-form .container .form h1 {
+  color: #021740;
+}
+main #contact-form .container .form h1 {
+  font-family: "Cantarell";
+}
+main #contact-form .container .form input {
+  width: 520px;
+  height: 56px;
+  border-radius: 38px;
+  margin-bottom: 10px;
+}
+main #contact-form .container .form input::-moz-placeholder {
+  color: #021740;
+  padding-left: 20px;
+}
+main #contact-form .container .form input:-ms-input-placeholder {
+  color: #021740;
+  padding-left: 20px;
+}
+main #contact-form .container .form input::placeholder {
+  color: #021740;
+  padding-left: 20px;
+}
+main #contact-form .container .form textarea {
+  width: 520px;
+  height: 200px;
+  border-radius: 38px;
+  margin-top: 10px;
+}
+main #contact-form .container .form textarea::-moz-placeholder {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+main #contact-form .container .form textarea:-ms-input-placeholder {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+main #contact-form .container .form textarea::placeholder {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+main #contact-form .container .form button {
+  width: 174px;
+  height: 54px;
+  border-radius: 38px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+main #contact-form .container .form button:hover {
+  drop-shadow: 0 0 20px #021740;
+}/*# sourceMappingURL=index.css.map */

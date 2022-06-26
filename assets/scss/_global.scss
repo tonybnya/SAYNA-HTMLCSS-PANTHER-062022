@@ -1,0 +1,37 @@
+p,
+a,
+footer {
+    font-family: 'Cantarell', sans-serif;
+}
+
+footer {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 68px;
+    font-family: 'Panthera';
+}
+
+h2 {
+    font-size: 43px;
+    font-family: 'Beyno';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background: $radial-gradient;
+    color: $color1;
+}

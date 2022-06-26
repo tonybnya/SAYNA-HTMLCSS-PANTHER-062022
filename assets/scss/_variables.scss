@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@400;500;700&display=swap');
+@font-face {
+    font-family: 'Panthera';
+    src: url(../fonts/Panthera.ttf);
+}
+
+@font-face {
+    font-family: 'Beyno';
+    src: url(../fonts/Beyno.otf);
+}
+
+@font-face {
+    font-family: 'Wakanda Forever';
+    src: url(../fonts/Wakanda\ Forever.ttf);
+}
+
+// Colors
+$color1: #FFFFFF;
+$color2: #F2CEF2;
+$color3: #9E91B7;
+$color4: #DF99F2;
+$color5: #3D2DA6;
+$color6: #07338C;
+$color7: #021740;
+// Backgrounds
+$radial-gradient: radial-gradient(126.67% 350.28% at -21.35% 0%,
+#11213F 0%,
+#0B0B0B 39.1%,
+rgba(2, 23, 64, 0.837641) 94.57%,
+rgba(2, 23, 64, 0) 100%);
+$linear-gradient: (180deg,
+#3D2DA6 0%,
+#021740 90.43%);
+$hero-index: url(../Accueil/Pantherhome1.png);
+$hero-wakanda: url(../Wakanda/Pantherwakanda1.png);
+$hero-enigme: url(../Enigme/Pantherenigme1.png);
+$spacing: 28%;

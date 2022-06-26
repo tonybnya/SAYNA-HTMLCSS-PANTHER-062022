@@ -4,6 +4,35 @@
 @import 'header';
 @import 'footer';
 main {
+    section {
+        margin-top: 0;
+    }
+    #main-actors {
+        .container {
+            .actors {
+                display: flex;
+                background: $color7;
+                .killmonger,
+                .okoye,
+                .shuri {
+                    display: flex;
+                }
+            }
+        }
+    }
+    #black-panther {
+        .container {
+            article {
+                width: 50%;
+            }
+            aside {
+                width: 50%;
+                float: right;
+                padding: 5px;
+                margin-top: 0;
+            }
+        }
+    }
     #contact-form {
         height: 100vh;
         background-image: url(../Accueil/Pantherhome7.png);

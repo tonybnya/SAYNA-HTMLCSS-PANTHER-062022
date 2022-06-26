@@ -196,6 +196,27 @@ footer .container .content .info .social-icons a {
   color: #FFFFFF;
 }
 
+main section {
+  margin-top: 0;
+}
+main #main-actors .container .actors {
+  display: flex;
+  background: #021740;
+}
+main #main-actors .container .actors .killmonger,
+main #main-actors .container .actors .okoye,
+main #main-actors .container .actors .shuri {
+  display: flex;
+}
+main #black-panther .container article {
+  width: 50%;
+}
+main #black-panther .container aside {
+  width: 50%;
+  float: right;
+  padding: 5px;
+  margin-top: 0;
+}
 main #contact-form {
   height: 100vh;
   background-image: url(../Accueil/Pantherhome7.png);
